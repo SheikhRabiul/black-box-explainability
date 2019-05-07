@@ -1,0 +1,39 @@
+Paper SL#,First author et al.,Paper Title,Journal/Conference name,Year,variables
+1,Bhattacharya et al.,A Bayesian approach to modeling mortgage default and prepayment,European Journal of Operational Research,2019,"actualLoss, CLTVoriginal, channel, creditScore, currentLoanDelinquencyStatus, DebtToIncomeRatioOriginal, dueDateOfLastPaidInstallment, expenses, firstPaymentDate, firstTimeHomeBuyerFlag, interestRateCurrent, interestRateOriginal, legalCosts, loanAge, loanPurpose, loanSequenceNumber, loanTermOriginal, maintenanceAndPreservationCosts, maturityDate, metropolitanDivisionOrMSA, miRecoveries, miscellaneousExpenses, modificationCost, modificationFlag, monthlyReportingPeriod, mortgageInsurancePercentage, netSalesProceeds, nonMiRecoveries, numberOfBorrowers, numberOfUnits, occupancyStatus, postalCode, preHarpLoanSequenceNumber , prepaymentPenaltyMortgageFlag, productType, propertyState, propertyType, remainingMonthToLegalMaturity, repurchaseFlag, sellerName, servicerName, superConformingFlag, taxesAndInsurance, UPBactual, UPBdeferred, UPBoriginal, zeroBalanceCode, zeroBalanceEffectiveDate"
+2,Greenwald,The mortgage credit channel of macroeconomic transmission,SSRN Electronic Journal,2018,"LTV, CLTV, paymentToIncome"
+3,Kvamme et al.,Predicting mortgage default using convolutional neural networks,Elsevier:Expert Systems with Applications,2018,"creditScore, balanceCheckingAccount, balanceSavingsAccount"
+4,Suk et al.,Liquidity crises in the mortgage market,Brookings Papers on Economic Activit,2018,"LTV, creditScore"
+5,Fout et al.,Credit risk of low income mortgages,Elsevier:Regional Science and Urban Economics,2018,"creditScore, creditScoreOriginal, creditScoreCoborrower, CLTVoriginal, DebtToIncomeRatioOriginal, numberOfBorrowers, propertyState, postalCode, numberOfUnits, interestRateOriginal, UPBoriginal"
+6,Wu et al.,Reducing residential mortgage default: Should policy act before or after home purchases?,PloS one,2018,"creditScore, interestRateCurrent, interestRateOriginal, DownPaymentRatio"
+7,Liu and Fien ,"""Cure” Effects and Mortgage Default: A Split Population Survival Time Model",The Journal of Real Estate Finance and Economics,2018,"UPBactual, UPBoriginal, LTVoriginal, interestRateOriginal, creditScore"
+8,"Karamon et al.,",Refinance and Mortgage Default: A Regression Discontinuity Analysis of HARP’s Impact on Default Rates,The Journal of Real Estate Finance and Economics,2017,"LTV, LTVoriginal, creditScore, UPBactual, UPBoriginal, propertyState, DebtToIncomeRatioOriginal, interestRateCurrent, creditScoreOriginal"
+9,"Sirignano et al.,",Deep learning for mortgage risk.,,2016,"creditScore, DebtToIncomeRatioOriginal, loanTermOriginal, LTVoriginal, interestRateOriginal, UPBoriginal, productType, propertyType, prepaymentPenaltyMortgageFlag, postalCode, propertyState, interestRateCurrent"
+10,"Sousa et al.,", A new dynamic modeling framework for credit risk assessment,Expert Systems With Applications,2016,"postalCode, numberOfUnits, occupancyStatus, propertyState"
+11,"Chan et al.,",Determinants of mortgage default and consumer credit use: the effects of foreclosure laws and foreclosure delays,"Journal of Money, Credit and Banking",2016,"creditScore, LTV, currentLoanDelinquencyStatus"
+12,"Fitzpatrick et al.,",An empirical comparison of classification algorithms for mortgage default prediction: evidence from a distressed mortgage market.,European Journal of Operational Research,2016,"DebtToIncomeRatioOriginal, loanAge, interestRateCurrent, loanPurpose, modificationFlag, postalCode, productType, numberOfBorrowers, numberOfUnits"
+13,"Sirignano et al.,",Risk analysis for large pools of loans,Management Science,2018,"LTV, LTVoriginal, creditScore"
+14,"Hooman et al.,",Statistical and data mining methods in credit scoring,The Journal of Developing Areas,2016,creditScore
+15,"Tian et al,.",Unemployment as an Adverse Trigger Event for Mortgage Default,The Journal of Real Estate Finance and Economics,2016,"creditScore, LTV, CLTV, loanAge, prepaymentPenaltyMortgageFlag"
+16,"Moulton et al.,",Reducing default rates of reverse mortgages,"Issue in Brief 16,11.",2016,"creditScore, propertyState, postalCode"
+17,"Fang et al.,","The Dynamics of Subprime Adjustable-Rate Mortgage Default:
+A Structural Estimation","Research department, Federal reserve bank of Philadelphia",2016,"creditScore, loanAge, interestRateCurrent, interestRateOriginal, LTV, LTVoriginal, modificationFlag, currentLoanDelinquencyStatus"
+18,"Antinolfi et al.,","Mortgage Rates and Credit Risk: Evidence from Mortgage
+Pools",SSRN,2016,"creditScore, DebtToIncomeRatioCurrent, DebtToIncomeRatioOriginal, propertyState, LTV, LTVoriginal, interestRateOriginal"
+19,"Berka et al.,",Using the LISp-Miner System for Credit Risk Assessment,Neural Network World,2016,creditScore
+20,"Bradley et al.,",Strategic mortgage default: The effect of neighborhood factors,Real Estate Economics,2015,"LTV, LTVoriginal, UPBactual, UPBoriginal, interestRateCurrent, interestRateOriginal, numberOfBorrowers, currentLoanDelinquencyStatus, creditScore, creditScoreOriginal, propertyState, postalCode, CLTV, CLTVoriginal, DebtToIncomeRatioCurrent"
+21,"Alfaro et al.,",The determinants of household debt default.,Economic Analyses Review,2012,"LTV, paymentToIncome"
+22,Khandani et al.,Consumer Credit Risk Models via Machine-Learning Algorithms,Journal of Banking & Finance,2010,"LTV, UPBactual"
+23,"Sousa et al.,","Links between Scores, Real Default and Pricing: Evidence from the Freddie Mac?s Loan-Level Dataset","Journal of Economics, Business and Management",2015,"creditScore, LTV, creditScoreOriginal, LTVoriginal"
+24,"Sousa et al.,","Stress-testing the return on lending under real extreme
+adverse circumstances",European Financial Management Association annual conference,2015,"creditScore, creditScoreOriginal, LTV, LTVoriginal"
+25,"Anderson et a.,","Building a Credit Model Using
+GSE Loan-Level Data",Journal of Structured Finance,2014,"CLTV, CLTVoriginal, creditScore, creditScoreOriginal, loanPurpose, occupancyStatus, numberOfBorrowers, loanAge, preHarpLoanSequenceNumber , UPBoriginal"
+26,"Goodman et al.,",A Look at Freddie Mac’s Loan-Level Credit Performance Data,Journal of Structured Finance,2014,"creditScore, creditScoreOriginal, LTV, LTVoriginal"
+27,"Foote et al.,",Mortgage-Default Research and the Recent Foreclosure Crisis,nnual Review of Financial Economics,2018,"CLTV, CLTVoriginal, creditScore, creditScoreOriginal, DebtToIncomeRatioCurrent"
+28,"Ghent et al.,",Recourse and residential mortgage default: evidence from US states,The Review of Financial Studies,2011,"creditScore, creditScoreOriginal, LTV, CLTVoriginal, loanAge, interestRateOriginal, interestRateCurrent"
+29,Elul,WHAT “TRIGGERS” MORTGAGE DEFAULT?,American Economic Review,2010,"LTV, LTVoriginal, CLTV, CLTVoriginal, creditScore, creditScoreOriginal"
+30,"Demiroglu et al.,","State Foreclosure Laws and the
+Incidence of Mortgage Default",he Journal of Law and Economics,2014,"creditScore, creditScoreOriginal, LTV, CLTVoriginal"
+31,"Low et al.,",Mortgage Default with Positive Equity by david low,Job Market Paper,2015,"LTV, paymentToIncome"
+32,"Gyourko et al.,",Reconciling theory and empirics on the role of unemployment in mortgage default,Journal of Urban Economics,2014,"LTV, LTVoriginal, creditScore, creditScoreOriginal"
+33,"Sorenson et al.,","Loan Characteristics, Borrower Traits, and Home Mortgage Foreclosures: The Case of Sioux Falls, South Dakota",Journal of Regional Analysis and Policy,2015,"LTV, LTVoriginal, interestRateCurrent, interestRateOriginal, UPBoriginal"
