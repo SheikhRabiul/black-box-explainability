@@ -53,8 +53,8 @@ dataset_train['capacity'] = dataset_train['capacity'] + dataset_train['currentLo
 dataset_train['capital'] = dataset_train['capital'] + dataset_train['originalUPB']*0.0837925355305464  #correlation with defaulted 0.0837925355305464
 dataset_train['capital'] = dataset_train['capital'] + dataset_train['currentActualUPB']*-0.731821113582467  #correlation with defaulted -0.731821113582467
 
-dataset_train['conditions'] = dataset_train['capacity'] + dataset_train['originalInterestRate']*0.201568736339354  #correlation with defaulted 0.201568736339354
-dataset_train['conditions'] = dataset_train['capacity'] + dataset_train['currentInterestRate']*-0.621300123845228 #correlation with defaulted  -0.621300123845228
+dataset_train['conditions'] = dataset_train['conditions'] + dataset_train['originalInterestRate']*0.201568736339354  #correlation with defaulted 0.201568736339354
+dataset_train['conditions'] = dataset_train['conditions'] + dataset_train['currentInterestRate']*-0.621300123845228 #correlation with defaulted  -0.621300123845228
 
 dataset_train['collateral'] = dataset_train['collateral'] + dataset_train['originalCombinedLoanToValue']*0.324007308140558  #correlation with defaulted 0.324007308140558
 
@@ -86,8 +86,8 @@ dataset_test['capacity'] = dataset_test['capacity'] + dataset_test['currentLoanD
 dataset_test['capital'] = dataset_test['capital'] + dataset_test['originalUPB']*0.0837925355305464  #correlation with defaulted 0.0837925355305464
 dataset_test['capital'] = dataset_test['capital'] + dataset_test['currentActualUPB']*-0.731821113582467  #correlation with defaulted -0.731821113582467
 
-dataset_test['conditions'] = dataset_test['capacity'] + dataset_test['originalInterestRate']*0.201568736339354  #correlation with defaulted 0.201568736339354
-dataset_test['conditions'] = dataset_test['capacity'] + dataset_test['currentInterestRate']*-0.621300123845228 #correlation with defaulted  -0.621300123845228
+dataset_test['conditions'] = dataset_test['conditions'] + dataset_test['originalInterestRate']*0.201568736339354  #correlation with defaulted 0.201568736339354
+dataset_test['conditions'] = dataset_test['conditions'] + dataset_test['currentInterestRate']*-0.621300123845228 #correlation with defaulted  -0.621300123845228
 
 dataset_test['collateral'] = dataset_test['collateral'] + dataset_test['originalCombinedLoanToValue']*0.324007308140558  #correlation with defaulted 0.324007308140558
 
