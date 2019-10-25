@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb 25 21:44:42 2019
+Created on Thursday Oct 24 21:44:42 2019
 
 @author: user1
 """
@@ -8,7 +8,12 @@ Created on Mon Feb 25 21:44:42 2019
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv('data/result_numeric.csv', index_col=0)
+
+df_part1 = pd.read_csv('data/data_preprocessed_numerical_train_res.csv', index_col=0)
+df_part2 = pd.read_csv('data/data_preprocessed_numerical_test.csv', index_col=0)
+data = pd.concat([df_part1,df_part2], axis = 0) 
+
+#data = pd.read_csv('data/data_preprocessed_numerical.csv', index_col=0)
 corr = data.corr()
 corr.to_csv("data/correlation_matrix.csv", sep=',')
 fig = plt.figure()
