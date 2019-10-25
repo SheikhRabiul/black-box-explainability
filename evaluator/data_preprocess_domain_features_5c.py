@@ -139,6 +139,11 @@ X_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 np.save('data/data_fully_processed_X_train_resampled_domain_features.npy',X_train_res)
 np.save('data/data_fully_processed_y_train_resampled_domain_features.npy',y_train_res)
 
+df_dump_part1 = pd.DataFrame(X_train_res, columns=dataset_train.iloc[:,0:-1].columns.values)
+df_dump_part2 = pd.DataFrame(y_train_res, columns=['defaulted'])   
+df_dump = pd.concat([df_dump_part1,df_dump_part2], axis = 1)
+df_dump.to_csv("data/data_preprocessed_numerical_train_res_5c.csv",encoding='utf-8')
+
 print('After OverSampling, the shape of train_X: {}'.format(X_train_res.shape))
 print('After OverSampling, the shape of train_y: {} \n'.format(y_train_res.shape))
 print("After OverSampling, counts of label '1': {}".format(sum(y_train_res==1)))
